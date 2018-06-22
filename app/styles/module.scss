@@ -8,6 +8,10 @@ header {
         color: white;
     }
 
+    .navbar-brand {
+        margin-right: 50%;
+    }
+
     .navbar-brand img{
         width: 10em;
         padding-left: 2em;
@@ -24,6 +28,9 @@ footer {
     width: 100%;
     padding: 1.5em;
     font-size: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 
     ul li {
         font-weight: 200;

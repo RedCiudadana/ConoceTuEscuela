@@ -1,0 +1,20 @@
+<header>
+  {{#bs-navbar fluid=fals backgroundColor="white" as |navbar|}}  
+    {{navbar.toggle}}
+    {{#link-to "application" class="navbar-brand"}}
+        <img
+          height=60px;
+          src="img/logo-conoce-tu-escuela.png"
+          class="img-responsive"
+          title="Conoce tu escuela"
+          alt="Logo Conoce tu escuela">
+    {{/link-to}}
+
+    {{#navbar.content}}
+      {{#navbar.nav as |nav|}}
+        {{#nav.link-to "buscar"}}Buscar{{/nav.link-to}}
+        {{#nav.link-to "comparar"}}Comparar{{/nav.link-to}}
+      {{/navbar.nav}}
+    {{/navbar.content}}
+  {{/bs-navbar}}
+</header>

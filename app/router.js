@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('buscar');
+  this.route('comparar');
 });
 
 export default Router;
