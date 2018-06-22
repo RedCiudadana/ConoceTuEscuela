@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Aileron";
+  src: url("fonts/Aileron.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("fonts/Aileron-Bold.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("fonts/Aileron-Heavy.otf");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Aileron";
+  src: url("fonts/Aileron-Light.otf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+a:link, a:visited {
+  color: internal value;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: internal value;
+}
+
+body {
+  font-family: Aileron;
+  background-color: $background-color;
+  color: $text-color;
+}
