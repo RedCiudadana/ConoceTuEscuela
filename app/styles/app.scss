@@ -6,3 +6,18 @@
 @import 'base';
 // Module
 @import 'module';
+
+#sectionimage {
+  background:url('/img/portrait.jpg') no-repeat center center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+
+#sectionimage p {
+  color: white;
+  font-size: larger;
+}
