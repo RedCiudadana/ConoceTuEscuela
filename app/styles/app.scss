@@ -1,5 +1,7 @@
 //Bootstrap
 @import "ember-bootstrap/bootstrap";
+//bootstrap3 Icons
+@import 'bootstrap3-icons';
 //Colors
 @import 'colors';
 // Base
@@ -20,4 +22,91 @@
 #sectionimage p {
   color: white;
   font-size: larger;
+}
+
+p, label {
+    font-family: Aileron;
+    color: #999999ff;
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+label {
+  font-weight: 700;
+}
+
+.primary-color {
+    color: #6b40ca;
+}
+
+.secundary-color {
+    color: #8465e6ff;
+}
+
+.context-color {
+    color: #999999;
+}
+
+.btn-purple {
+    background-color: #8465e6ff;
+    color: white;
+}
+
+.btn-purple2 {
+    background-color: #8263e6ff;
+    color: white;
+}
+
+.btn-orange {
+    background-color: #fda10aff;
+    color: white;
+}
+
+#btn-buscar-escuela {
+  background-color: red;
+}
+
+.img-responsive .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-container {
+  background-color: #fff; 
+}
+
+.row-purple {
+  height: 5rem;
+  border-radius: 5px;
+}
+
+.row-purple img {
+  height: 3rem;
+}
+
+.row-green {
+  background-color: #2bbb50ff;
+  color: white;
+}
+
+.morado-oscuro {
+  background-color: #6b40caff;
+}
+
+.row-celeste {
+  height: 5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.row-celeste img {
+  height: 3rem;
+}
+
+.celeste {
+  background-color: #17b8f7ff;
+}
+
+.celeste-oscuro {
+  background-color: #0087feff;
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Aileron";
-  src: url("/fonts/Aileron.otf");
+  src: url("/fonts/Aileron-Regular.otf");
   font-weight: normal;
 }
 
@@ -24,12 +24,6 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("/fonts/Roboto.ttf");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Roboto";
   src: url("/fonts/Roboto-Bold.ttf");
   font-weight: bold;
 }
@@ -38,6 +32,12 @@
   font-family: "Roboto";
   src: url("/fonts/Roboto-Medium.ttf");
   font-weight: 500;
+}
+
+@font-face {
+  font-family: "Glyphicons Halflings";
+  src: url("/fonts/glyphicons-halflings-regular.eot");
+  src: url("/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
 }
 
 a:link, a:visited {
