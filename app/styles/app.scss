@@ -6,8 +6,74 @@
 @import 'colors';
 // Base
 @import 'base';
-// Module
-@import 'module';
+
+// HEADER
+header {
+    .navbar {
+
+    background-color: $header-background-color;
+
+    .navbar-nav .nav-item a{
+        color: white;
+    }
+
+    .navbar-brand {
+        margin-right: 50%;
+    }
+
+    .navbar-brand img{
+        width: 10em;
+        padding-left: 2em;
+    }
+
+    }
+}
+
+// FOOTER
+footer {
+    background-color: $footer-background-color;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 1.5em;
+    font-size: 0.8rem;
+    // Sticky footer
+    // position: fixed;
+    // left: 0;
+    // bottom: 0;
+
+    ul li {
+        font-weight: 200;
+        padding-top: 10px;
+    }
+
+    span {
+        font-weight: 500;
+        padding-bottom: 30px;
+    }
+
+    img {
+        width: 15px;
+        margin-right: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+#redCiudananaFooterImg .col-sm-4 {
+    width: 32%;
+    padding-top: 10px;
+}
+
+#redCiudananaFooterImg  {
+    max-height: 6em;
+    width: auto;
+    padding-top: 10px;
+}
+
 
 #sectionimage {
   background:url('/img/portrait.jpg') no-repeat center center;
