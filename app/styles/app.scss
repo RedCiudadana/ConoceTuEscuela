@@ -1,5 +1,7 @@
 @import 'custom-variables';
 @import "ember-bootstrap/bootstrap";
+@imoprt "base"
+
 
 .display-1,
 .display-2,
@@ -17,9 +19,14 @@ h4 {
   font-family: "Aileron", sans-serif;
 }
 
+video {
+  width: 100%;
+}
+
 // HEADER
 header {
     .navbar {
+      height: 6rem;
 
     background-color: $primary;
 
@@ -27,13 +34,9 @@ header {
         color: white;
     }
 
-    .navbar-brand {
-        margin-right: 50%;
-    }
-
     .navbar-brand img{
-        width: 10em;
         padding-left: 2em;
+        height: 35px;
     }
 
     }
@@ -45,7 +48,6 @@ footer {
     color: white;
     position: absolute;
     width: 100%;
-    padding: 1.5em;
     font-size: 0.8rem;
     // Sticky footer
     // position: fixed;
@@ -100,89 +102,6 @@ footer {
   font-size: larger;
 }
 
-// p, label {
-//     font-family: Aileron;
-//     color: #999999ff;
-//     border-radius: 0px;
-//     border-width: 0px;
-// }
-
-// label {
-//   font-weight: 700;
-// }
-
-// .primary-color {
-//     color: #6b40ca;
-// }
-
-// .secundary-color {
-//     color: #8465e6ff;
-// }
-
-// .context-color {
-//     color: #999999;
-// }
-
-// .btn-purple {
-//     background-color: #8465e6ff;
-//     color: white;
-// }
-
-// .btn-purple2 {
-//     background-color: #8263e6ff;
-//     color: white;
-// }
-
-// .btn-orange {
-//     background-color: #fda10aff;
-//     color: white;
-// }
-
-// #btn-buscar-escuela {
-//   background-color: red;
-// }
-
-// .img-responsive .center {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
-
-// .content-container {
-//   background-color: #fff; 
-// }
-
-// .row-purple {
-//   height: 5rem;
-//   border-radius: 5px;
-// }
-
-// .row-purple img {
-//   height: 3rem;
-// }
-
-// .row-green {
-//   background-color: #2bbb50ff;
-//   color: white;
-// }
-
-// .morado-oscuro {
-//   background-color: #6b40caff;
-// }
-
-// .row-celeste {
-//   height: 5rem;
-//   border-radius: 5px;
-//   color: white;
-// }
-
-// .row-celeste img {
-//   height: 3rem;
-// }
-
-// .celeste {
-//   background-color: #17b8f7ff;
-// }
-
-// .celeste-oscuro {
-//   background-color: #0087feff;
-// }
+.paso-p {
+  text-align: justify;
+}
