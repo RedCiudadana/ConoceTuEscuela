@@ -1,27 +1,26 @@
 <div class="container my-5">
+    {{!-- Tabs route --}}
     <div class="row">
-        <div class="col-10">
-            <ul class="nav nav-pills nav-fill">
-              <li class="nav-item">
-                <a class="nav-link active bg-info px-5" href="#!">
-                    <img height="50px" class="mr-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARVSURBVHhe7dAxqm05EATBt/9NzzjhJRfKERz4HW5StNDfOeecc875l/33mDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFfH7xTyHPzEI+v/inkGdmIZ9f/FPIM7OQzy/+KeSZWcjnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFvLN7xpnP8KyQZ2Yh7+yeceYzPCvkmVnIO7tnnPkMzwp5Zhbyzu4ZZz7Ds0KemYW8s3vGmc/wrJBnZiHv7J5x5jM8K+SZWcg7u5BnZiF/hmeFPDMLeWcX8sws5M/wrJBnZiHv7EKemYX8GZ4V8sws5J1dyDOzkD/Ds0KemYW8swt5ZhbyZ3hWyDOzkHd2Ic/MQv4Mzwp5Zhbyzi7kmVnIn+FZIc/MQt7ZhTwzC/kzPCvkmVnIO7uQZ2Yhf4ZnhTwzC3lnF/LMLOTP8KyQZ2Yh7+xCnpmF/BmeFfLMLOSdXcgzs5A/w7NCnpmFvLMLeWYWcsjPOBNyyDOzkHd2Ic/MQg75GWdCDnlmFvLOLuSZWcghP+NMyCHPzELe2YU8Mws55GecCTnkmVnIO7uQZ2Yhh/yMMyGHPDMLeWcX8sws5JCfcSbkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/snnEm5GecCfkZZ3Z2zzgT8jPOhPyMMzu7Z5wJ+RlnQn7GmZ3dM86E/IwzIT/jzM7uGWdCfsaZkJ9xZmf3jDMhP+NMyM84c84555xzzjnnnHP+WX9//wP4YVnZ6HMDHwAAAABJRU5ErkJggg==">
-                    Escuela
-                </a>
-              </li>
-              <li class="nav-item mx-1">
-                <a class="nav-link bg-success text-white px-5" href="#!">
-                    <img height="50px" class="mr-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARVSURBVHhe7dAxqm05EATBt/9NzzjhJRfKERz4HW5StNDfOeecc875l/33mDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFfH7xTyHPzEI+v/inkGdmIZ9f/FPIM7OQzy/+KeSZWcjnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFvLN7xpnP8KyQZ2Yh7+yeceYzPCvkmVnIO7tnnPkMzwp5Zhbyzu4ZZz7Ds0KemYW8s3vGmc/wrJBnZiHv7J5x5jM8K+SZWcg7u5BnZiF/hmeFPDMLeWcX8sws5M/wrJBnZiHv7EKemYX8GZ4V8sws5J1dyDOzkD/Ds0KemYW8swt5ZhbyZ3hWyDOzkHd2Ic/MQv4Mzwp5Zhbyzi7kmVnIn+FZIc/MQt7ZhTwzC/kzPCvkmVnIO7uQZ2Yhf4ZnhTwzC3lnF/LMLOTP8KyQZ2Yh7+xCnpmF/BmeFfLMLOSdXcgzs5A/w7NCnpmFvLMLeWYWcsjPOBNyyDOzkHd2Ic/MQg75GWdCDnlmFvLOLuSZWcghP+NMyCHPzELe2YU8Mws55GecCTnkmVnIO7uQZ2Yhh/yMMyGHPDMLeWcX8sws5JCfcSbkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/snnEm5GecCfkZZ3Z2zzgT8jPOhPyMMzu7Z5wJ+RlnQn7GmZ3dM86E/IwzIT/jzM7uGWdCfsaZkJ9xZmf3jDMhP+NMyM84c84555xzzjnnnHP+WX9//wP4YVnZ6HMDHwAAAABJRU5ErkJggg==">
-                    Compara
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link bg-success text-white px-5" href="#!">
-                    <img height="50px" class="mr-3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARVSURBVHhe7dAxqm05EATBt/9NzzjhJRfKERz4HW5StNDfOeecc875l/33mDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF//0jDPnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFfH7xTyHPzEI+v/inkGdmIZ9f/FPIM7OQzy/+KeSZWcjnF/8U8sws5POLfwp5Zhby+cU/hTwzC/n84p9CnpmFvLN7xpnP8KyQZ2Yh7+yeceYzPCvkmVnIO7tnnPkMzwp5Zhbyzu4ZZz7Ds0KemYW8s3vGmc/wrJBnZiHv7J5x5jM8K+SZWcg7u5BnZiF/hmeFPDMLeWcX8sws5M/wrJBnZiHv7EKemYX8GZ4V8sws5J1dyDOzkD/Ds0KemYW8swt5ZhbyZ3hWyDOzkHd2Ic/MQv4Mzwp5Zhbyzi7kmVnIn+FZIc/MQt7ZhTwzC/kzPCvkmVnIO7uQZ2Yhf4ZnhTwzC3lnF/LMLOTP8KyQZ2Yh7+xCnpmF/BmeFfLMLOSdXcgzs5A/w7NCnpmFvLMLeWYWcsjPOBNyyDOzkHd2Ic/MQg75GWdCDnlmFvLOLuSZWcghP+NMyCHPzELe2YU8Mws55GecCTnkmVnIO7uQZ2Yhh/yMMyGHPDMLeWcX8sws5JCfcSbkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/sQp6ZhRxyyDOzkEMOeWYW8s4u5JlZyCGHPDMLOeSQZ2Yh7+xCnpmFHHLIM7OQQw55Zhbyzi7kmVnIIYc8Mws55JBnZiHv7EKemYUccsgzs5BDDnlmFvLOLuSZWcghhzwzCznkkGdmIe/snnEm5GecCfkZZ3Z2zzgT8jPOhPyMMzu7Z5wJ+RlnQn7GmZ3dM86E/IwzIT/jzM7uGWdCfsaZkJ9xZmf3jDMhP+NMyM84c84555xzzjnnnHP+WX9//wP4YVnZ6HMDHwAAAABJRU5ErkJggg==">
-                    Reporta
-                </a>
-              </li>
-            </ul>
-        </div>
+        {{#bs-nav type="pills" class="nav nav-pills nav-fill" justified=true as |nav|}}
+       {{#nav.item}}
+          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
+                <img height="50px" class="mr-3" src="/img/school.svg">
+                <span class="my-auto">Escuela</span>
+          {{/nav.link-to}}
+       {{/nav.item}}
+       {{#nav.item}}
+          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
+                <img height="50px" class="mr-3" src="/img/pen.svg">
+                <span class="my-auto">Compara</span>
+          {{/nav.link-to}}
+       {{/nav.item}}
+       {{#nav.item}}
+          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
+                <img height="50px" class="mr-3" src="/img/report.svg">
+                <span class="my-auto">Reporta</span>
+          {{/nav.link-to}}
+       {{/nav.item}}
+     {{/bs-nav}}
     </div>
     <!-- Form -->
     <div class="row">
@@ -86,7 +85,9 @@
         </div>
         <!-- Mapa -->
         <div class="col-12 col-md-3 d-block mt-4">
-            <img src="{{rootURL}}/img/logo-conoce-tu-escuela.png" alt="Map here" width="100%" class="border bg-dark">
+            {{#leaflet-map lat=14.6131039 lng=-90.5189396 zoom=12}}
+              {{tile-layer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+            {{/leaflet-map}}
             <div class="my-4 border py-5 px-4 rounded">
                 <span>Dirreccion</span>
                 <p>Ciudada de guatemala</p>
@@ -96,54 +97,74 @@
         </div>
     </div>
     <!-- Datos en fila -->
-    <div class="row rounded bg-secondary text-white text-left">
-        <div class="col border-right pt-3 d-flex">
-            <img height="50px" class="mr-3" src="/img/image.png" alt="Image">
-            <div>
-                <h6>Status</h6>
-                <p class="font-weight-light">Ciudad de Guatemala</p>
+    {{#bs-tab customTabs=true as |tab|}}
+        {{#bs-nav type="pills" class="nav nav-pills nav-fill" as |nav|}}
+
+            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
+                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
+                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
+                        <img height="50px" class="mr-3" src="/img/status.svg">
+                        Status
+                    </li>
+                </a> 
+            {{/nav.item}}
+
+            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
+                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
+                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
+                        <img height="50px" class="mr-3" src="/img/modalidad.svg">
+                        Modalidad
+                    </li>
+                </a> 
+            {{/nav.item}}
+
+            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
+                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
+                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
+                        <img height="50px" class="mr-3" src="/img/jornada.svg">
+                        Jornada
+                    </li>
+                </a> 
+            {{/nav.item}}
+
+            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
+                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
+                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
+                        <img height="50px" class="mr-3" src="/img/plan.svg">
+                        Plan
+                    </li>
+                </a> 
+            {{/nav.item}}
+
+        {{/bs-nav}}
+       <div class="tab-content">
+       {{#tab.pane elementId="pane1" title="Tab 1" class="d-flex"}}
+            <div class="w-50 d-flex border-right">
+                <div>
+                    <img height="180px" class="m-5" src="/img/perfil-default.svg">
+                </div>
+                <div class="my-auto">
+                    <h6>Director:</h6>
+                    <span class="text-muted font-weight-light">Contacto del Director</span><br>
+                    <span class="text-muted font-weight-light">Contacto del Director</span>
+                </div>
             </div>
-        </div>
-        <div class="col border-right pt-3 d-flex">
-            <img height="50px" class="mr-3" src="/img/image.png" alt="Image">
-            <div>
-                <h6>Status</h6>
-                <p class="font-weight-light">Ciudad de Guatemala</p>
+            <div class="d-flex">
+                <div>
+                    <img height="180px" class="m-5" src="/img/perfil-default.svg">
+                </div>
+                <div class="my-auto">
+                    <h6>Director:</h6>
+                    <span class="text-muted font-weight-light">Contacto del Director</span><br>
+                    <span class="text-muted font-weight-light">Contacto del Director</span>
+                </div>
             </div>
-        </div>
-        <div class="col border-right pt-3 d-flex">
-            <img height="50px" class="mr-3" src="/img/image.png" alt="Image">
-            <div>
-                <h6>Status</h6>
-                <p class="font-weight-light">Ciudad de Guatemala</p>
-            </div>
-        </div>
-        <div class="col border-right pt-3 d-flex">
-            <img height="50px" class="mx-5" src="/img/image.png" alt="Image">
-            <div class="my-auto mx-1">
-                <h6>Status</h6>
-            </div>
-        </div>
-    </div>
-    <!-- Director y subdirector -->
-    <div class="row my-4">
-        <div class="col-2">
-            <img src="" alt="">
-        </div>
-        <div class="col-4 d-block context-color border-right">
-            <h5 class="mt-5 mb-4">Director:</h5>
-            <h6 class="my-4 font-weight-light">Contacto del director</h6>
-            <h6 class="mt-4 mb-5 font-weight-light">Contacto del director</h6>
-        </div>
-        <div class="col-2">
-            <img src="" alt="">
-        </div>
-        <div class="col-4 d-block context-color">
-            <h5 class="mt-5 mb-4">Supervisor</h5>
-            <h6 class="my-4 font-weight-light">Contacto del supervisor</h6>
-            <h6 class="mt-4 mb-5 font-weight-light">Contacto del supervisor</h6>
-        </div>
-    </div>
+       {{/tab.pane}}
+       {{#tab.pane elementId="pane2" title="Tab 2"}}
+           <p> 2 </p>
+       {{/tab.pane}}
+       </div>
+    {{/bs-tab}}
     <!-- Desempeño -->
     <div class="row justify-content-center rounded row-green">
         <div class="col-12 py-4 text-center text-md-left">
