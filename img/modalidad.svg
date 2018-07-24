@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" enable-background="new 0 0 287.979 276.747"
+	 xml:space="preserve">
+<g id="WEB">
+	<g opacity="0.8">
+	</g>
+	<g>
+		<g>
+			<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="92.834,140.996 179.543,57.154 
+				221.665,100.708 134.949,184.554 			"/>
+			<polygon fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="194.863,42.33 236.986,85.888 
+				221.542,100.82 179.435,57.262 			"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M248.552,74.695l-11.403,11.031l-42.111-43.554
+				l11.407-11.031c6.726-6.502,17.444-6.364,23.901,0.315l18.707,19.345C255.508,57.481,255.285,68.193,248.552,74.695z"/>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="192.701" y1="70.79" x2="106.123" y2="154.508"/>
+			
+				<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="208.854" y1="87.492" x2="122.214" y2="171.268"/>
+			<g>
+				<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" points="77.395,196.728 92.988,140.827 
+					135.657,184.961 79.491,198.709 				"/>
+				<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M79.264,198.674
+					c-0.673,0.008-1.127-0.342-1.342-0.569c-0.224-0.227-0.563-0.697-0.527-1.377l5.813-20.427l16.313,17.206L79.264,198.674z"/>
+			</g>
+		</g>
+		<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M155.525,37.755H32.112
+			c-3.771,0-6.825,3.059-6.825,6.83v194.9c0,3.771,3.047,6.833,6.825,6.833h183.797c14.448,0,26.194-11.75,26.194-26.198v-92.491"/>
+	</g>
+</g>
+<g id="Gutters" display="none">
+</g>
+</svg>
