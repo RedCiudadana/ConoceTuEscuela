@@ -1,27 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" enable-background="new 0 0 287.979 276.747"
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" style="enable-background:new 0 0 287.979 276.747;"
 	 xml:space="preserve">
 <g id="WEB">
-	<g opacity="0.8">
-	</g>
 	<g>
 		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="141.224" y1="60.186" x2="141.224" y2="135.323"/>
+			<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="141.224" y1="60.186" x2="141.224" y2="135.323"/>
 		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="141.224" y1="135.323" x2="192.193" y2="158.894"/>
+			<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="141.224" y1="135.323" x2="192.193" y2="158.894"/>
 		<g>
 			
-				<polyline fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+				<polyline style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" points="
 				208.646,101.527 248.225,121.981 267.347,80.628 			"/>
-			<path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-				M230.68,194.176c-19.247,28.863-52.111,47.877-89.408,47.877c-59.316,0-107.396-48.083-107.396-107.396
+			<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" d="
+				M230.68,194.176c-19.247,28.863-52.111,47.877-89.408,47.877c-59.315,0-107.396-48.084-107.396-107.396
 				c0-59.31,48.079-107.396,107.396-107.396c55.039,0,100.404,41.402,106.662,94.753"/>
 		</g>
 	</g>
 </g>
-<g id="Gutters" display="none">
+<g id="Gutters" style="display:none;">
 </g>
 </svg>

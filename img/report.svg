@@ -1,51 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" enable-background="new 0 0 287.979 276.747"
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" style="enable-background:new 0 0 287.979 276.747;"
 	 xml:space="preserve">
-<g id="WEB">
-	<g opacity="0.8">
-		<g opacity="0.4">
-			<defs>
-				<rect id="SVGID_7_" x="-220.084" y="12.089" opacity="0.4" width="198.898" height="432.029"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_7_"  overflow="visible"/>
-			</clipPath>
-			<g opacity="0.2" clip-path="url(#SVGID_2_)">
-				<g>
-					<path fill="#8E9093" d="M17.914,426.853c110.098,0,199.602-89.514,199.602-199.617c0-22.348-18.125-40.502-40.521-40.502
-						c-22.359,0-40.496,18.154-40.496,40.502c0,65.377-53.17,118.582-118.584,118.582c-65.281,0-118.434-53.205-118.434-118.582
-						c0-22.348-18.191-40.502-40.514-40.502c-22.369,0-40.521,18.154-40.521,40.502C-181.555,337.339-92.059,426.853,17.914,426.853
-						z"/>
-				</g>
-				<g>
-					<path fill="#8E9093" d="M-141.033,267.769c22.322,0,40.514-18.164,40.514-40.533c0-65.271,53.152-118.457,118.434-118.457
-						c65.414,0,118.584,53.186,118.584,118.457c0,22.369,18.137,40.533,40.496,40.533c22.396,0,40.521-18.164,40.521-40.533
-						c0-109.996-89.504-199.475-199.602-199.475c-109.973,0-199.469,89.479-199.469,199.475
-						C-181.555,249.605-163.402,267.769-141.033,267.769z"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" d="M224.036,165.667
-			c10.142-7.09,15.719-16.508,15.719-26.525c0-10.013-5.581-19.435-15.719-26.516"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" d="M252.372,139.142"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" d="M229.816,193.676
-			c45.446-29.2,45.446-76.693-0.017-105.872"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" d="M71.192,172.571
-			c-20.17-5.341-35.095-23.706-35.095-45.567c0-21.853,14.925-40.233,35.095-45.571V172.571z"/>
-		
-			<rect x="70.287" y="81.557" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" width="48.167" height="90.993"/>
-		<polygon fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" points="
-			181.848,211.474 118.454,172.55 118.454,81.557 181.848,42.634 181.848,211.474 		"/>
-		<path fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-miterlimit="10" d="M70.104,173.468
-			l10.46,28.753c2.456,6.739,8.935,11.261,16.091,11.261h0.012c1.997,0,3.957-0.347,5.862-1.033
-			c8.864-3.241,13.44-13.089,10.216-21.944l-6.061-16.677"/>
-	</g>
-</g>
-<g id="Gutters" display="none">
+<g>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="M224.036,165.667
+		c10.142-7.09,15.719-16.508,15.719-26.524c0-10.013-5.581-19.435-15.719-26.516"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="M252.372,139.142"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="M229.816,193.676
+		c45.446-29.2,45.446-76.693-0.017-105.872"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="M71.192,172.571
+		c-20.17-5.341-35.095-23.705-35.095-45.567c0-21.853,14.925-40.233,35.095-45.571V172.571z"/>
+	
+		<rect x="70.287" y="81.557" style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" width="48.167" height="90.992"/>
+	<polygon style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" points="181.848,211.474 
+		118.454,172.549 118.454,81.557 181.848,42.634 	"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:10;" d="M70.104,173.467
+		l10.46,28.754c2.456,6.738,8.936,11.261,16.091,11.261h0.013c1.997,0,3.957-0.347,5.861-1.032
+		c8.864-3.242,13.44-13.09,10.217-21.945l-6.062-16.676"/>
 </g>
 </svg>

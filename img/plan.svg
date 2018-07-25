@@ -1,41 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" enable-background="new 0 0 287.979 276.747"
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="287.979px" height="276.747px" viewBox="0 0 287.979 276.747" style="enable-background:new 0 0 287.979 276.747;"
 	 xml:space="preserve">
-<g id="WEB">
-	<g opacity="0.8">
-		<g opacity="0.4">
-			<defs>
-				<rect id="SVGID_3_" x="-220.084" y="116.128" opacity="0.4" width="198.898" height="432.029"/>
-			</defs>
-			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_3_"  overflow="visible"/>
-			</clipPath>
-			<g opacity="0.2" clip-path="url(#SVGID_2_)">
-				<g>
-					<path fill="#8E9093" d="M-141.033,371.808c22.322,0,40.514-18.164,40.514-40.533c0-65.271,53.152-118.457,118.434-118.457
-						c65.414,0,118.584,53.186,118.584,118.457c0,22.369,18.137,40.533,40.496,40.533c22.396,0,40.521-18.164,40.521-40.533
-						c0-109.996-89.504-199.475-199.602-199.475c-109.973,0-199.469,89.479-199.469,199.475
-						C-181.555,353.644-163.402,371.808-141.033,371.808z"/>
-				</g>
-			</g>
-		</g>
-	</g>
-	<g>
-		
-			<rect x="49.705" y="59.262" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="181.343" height="182.946"/>
-		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="93.183" y1="34.539" x2="93.183" y2="78.892"/>
-		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="93.183" y1="34.539" x2="93.183" y2="78.892"/>
-		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="188.748" y1="34.539" x2="188.748" y2="78.892"/>
-		
-			<line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="50.782" y1="103.297" x2="232.104" y2="103.297"/>
-	</g>
-</g>
-<g id="Gutters" display="none">
+<g>
+	
+		<rect x="58.705" y="59.263" style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" width="181.343" height="182.945"/>
+	
+		<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="102.183" y1="34.54" x2="102.183" y2="78.893"/>
+	
+		<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="102.183" y1="34.54" x2="102.183" y2="78.893"/>
+	
+		<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="197.748" y1="34.54" x2="197.748" y2="78.893"/>
+	
+		<line style="fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;" x1="59.782" y1="103.297" x2="241.104" y2="103.297"/>
 </g>
 </svg>
