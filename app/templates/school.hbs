@@ -1,4 +1,9 @@
-<div class="container my-5">
+<style>
+    body {
+        background-color: #f2f2f2;
+    }
+</style>
+<div class="container my-5 p-5 bg-white">
     {{!-- Tabs route --}}
     <div class="row">
         {{#bs-nav type="pills" class="nav nav-pills nav-fill" justified=true as |nav|}}
@@ -88,11 +93,11 @@
             {{#leaflet-map lat=14.6131039 lng=-90.5189396 zoom=12}}
               {{tile-layer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
             {{/leaflet-map}}
-            <div class="my-4 border py-5 px-4 rounded">
-                <span>Dirreccion</span>
-                <p>Ciudada de guatemala</p>
-                <span>Telefono</span>
-                <p>(502) 2254-3478</p>
+            <div class="w-100 border rounded p-4 my-1 bg-primary text-white">
+                <img src="/img/email.svg" class="tiny" alt=""><span>Dirección</span>
+                <p class="font-weight-light">Ciudad de Guatemala</p>
+                <img src="/img/phone.svg" class="tiny" alt="Teléfono"><span>Teléfono</span>
+                <p class="font-weight-light">(502) 2254-3478</p>
             </div>
         </div>
     </div>
@@ -166,9 +171,23 @@
        </div>
     {{/bs-tab}}
     <!-- Desempeño -->
-    <div class="row justify-content-center rounded row-green">
+    <div class="row justify-content-center rounded bg-green">
         <div class="col-12 py-4 text-center text-md-left">
-            <h4 class="ml-5">Desempeño Academico</h4>
+            <h4 class="ml-5 text-white">Desempeño Academico</h4>
+        </div>
+    </div>
+    {{!-- Materias --}}
+    <div class="row">
+        <div class="col-12 col-md-3 my-2 bg-yellow p-5 text-center">
+            <img src="/img/mathematics.svg" class="subjects-img" alt="Matemáticas">
+            <h6 class="font-weight-bold text-white text-center">Matemáticas</h6>
+        </div>
+        <div class="col-12 col-md-7 bg-primary my-2">
+            <h1 class="text-white">Highcharts Here</h1>
+        </div>
+        <div class="col-12 col-md-2 my-2 pt-5">
+            <div class="d-flex"><div class="bg-danger rounded m-1" style="height: 20px; width: 20px;"></div><span class="my-1 font-weight-light">Value 1</span></div>
+            <div class="d-flex"><div class="bg-primary rounded m-1" style="height: 20px; width: 20px;"></div><span class="my-1 font-weight-light">Value 2</span></div>
         </div>
     </div>
 </div>

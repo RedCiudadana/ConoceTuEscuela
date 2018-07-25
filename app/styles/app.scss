@@ -7,6 +7,18 @@
   font-family: "Aileron", sans-serif
 }
 
+.bg-green {
+  background-color: $green;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.subjects-img {
+  width: 80%;
+}
+
 h1, h2, h3, h4 {
   color: #6b40ca;
   font-family: "Aileron", sans-serif
@@ -103,4 +115,10 @@ footer {
 .leaflet-container {
   width: 15rem;
   height: 15rem;
+  margin: auto;
+}
+
+.tiny {
+  width: 1.5rem;
+  height: 1.5rem;
 }
