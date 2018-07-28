@@ -93,7 +93,7 @@
             {{#leaflet-map lat=14.6131039 lng=-90.5189396 zoom=12}}
               {{tile-layer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
             {{/leaflet-map}}
-            <div class="w-100 border rounded p-4 my-1 bg-primary text-white">
+            <div class="w-100 border rounded p-4 my-2 bg-secundary">
                 <img src="/img/email.svg" class="tiny" alt=""><span>Dirección</span>
                 <p class="font-weight-light">Ciudad de Guatemala</p>
                 <img src="/img/phone.svg" class="tiny" alt="Teléfono"><span>Teléfono</span>
@@ -143,25 +143,29 @@
 
         {{/bs-nav}}
        <div class="tab-content">
-       {{#tab.pane elementId="pane1" title="Tab 1" class="row d-flex"}}
-            <div class="col-12 col-md-6 d-flex border-right">
-                <div>
-                    <img height="180px" class="m-5" src="/img/perfil-default.svg">
-                </div>
-                <div class="my-auto">
-                    <h6>Director:</h6>
-                    <span class="text-muted font-weight-light">Contacto del Director</span><br>
-                    <span class="text-muted font-weight-light">Contacto del Director</span>
+       {{#tab.pane elementId="pane1" title="Tab 1" class="row d-flex p-3"}}
+            <div class="col-12 col-md-5 d-flex border-md-right">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img width="80%" class="m-2" src="/img/perfil-default.svg">
+                    </div>
+                    <div class="col-12 col-md-6 my-auto">
+                        <h6>Director:</h6>
+                        <span class="text-muted font-weight-light">Contacto del Director</span><br>
+                        <span class="text-muted font-weight-light">Contacto del Director</span>
+                    </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 d-flex">
-                <div>
-                    <img height="180px" class="m-5" src="/img/perfil-default.svg">
-                </div>
-                <div class="my-auto">
-                    <h6>Director:</h6>
-                    <span class="text-muted font-weight-light">Contacto del Director</span><br>
-                    <span class="text-muted font-weight-light">Contacto del Director</span>
+            <div class="col-12 col-md-5 d-flex border-md-right">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img width="80%" class="m-2" src="/img/perfil-default.svg">
+                    </div>
+                    <div class="col-12 col-md-6 my-auto">
+                        <h6>Director:</h6>
+                        <span class="text-muted font-weight-light">Contacto del Director</span><br>
+                        <span class="text-muted font-weight-light">Contacto del Director</span>
+                    </div>
                 </div>
             </div>
        {{/tab.pane}}
@@ -182,12 +186,8 @@
             <img src="/img/mathematics.svg" class="subjects-img" alt="Matemáticas">
             <h6 class="font-weight-bold text-white text-center">Matemáticas</h6>
         </div>
-        <div class="col-12 col-md-7 bg-primary my-2">
-            <h1 class="text-white">Highcharts Here</h1>
-        </div>
-        <div class="col-12 col-md-2 my-2 pt-5">
-            <div class="d-flex"><div class="bg-danger rounded m-1" style="height: 20px; width: 20px;"></div><span class="my-1 font-weight-light">Value 1</span></div>
-            <div class="d-flex"><div class="bg-primary rounded m-1" style="height: 20px; width: 20px;"></div><span class="my-1 font-weight-light">Value 2</span></div>
+        <div class="col-12 col-md-9 my-2">
+            {{chart-line-basic class="my-5"}}
         </div>
     </div>
 </div>
