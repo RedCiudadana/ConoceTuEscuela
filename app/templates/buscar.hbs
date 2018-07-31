@@ -1,0 +1,85 @@
+<style>
+    body {
+        background-color: #f2f2f2;
+    }
+</style>
+
+<div class="container bg-white my-4 rounded p-4">
+    <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-6 my-3">
+            <h3 class="AileronBold">Busca tu escuela</h3>
+            <p>Our new GreatSchools Summary Rating offers expanded information about important aspects of school quality.</p>
+        </div>
+    </div>
+    <!-- Form -Buscar Escuela-->
+    <form>
+        <div class="form-row">
+            <div class="form-group col-12">
+                <label for="School">Nombre de la escuela</label>
+                <input type="text" class="form-control" id="inputSchool">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Departamento">Departamento</label>
+                <input type="text" class="form-control" id="inputDepartamento">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Municipio">Municipio</label>
+                <input type="text" class="form-control" id="inputMunicipio">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="levelSchool">Nivel escolar</label>
+                <input type="text" class="form-control" id="inputLevelSchool">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Sector">Sector</label>
+                <input type="text" class="form-control" id="inputSector">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Plan">Plan</label>
+                <input type="text" class="form-control" id="inputPlan">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Modalidad">Modalidad</label>
+                <input type="text" class="form-control" id="inputModalidad">
+            </div>
+        </div>
+        <div class="form-row justify-content-center">
+            <button type="submit" class="btn btn-primary">Buscar escuela</button>
+        </div>
+    </form>
+    <!-- Resultados -->
+    <div class="row justify-content-center">
+        <div class="col-12 py-3 px-5 my-4 text-center text-md-left bg-primary">
+            <h6 class="text-white">Resultados de la busquedad</h6>
+        </div>
+    </div>
+    <!-- Opciones -->
+    <div class="row justify-content-center my-4">
+        <div class="col-12 bg-white">
+            <div class="row">
+                <div class="col-12 col-md-2">
+                    <img src="/img/image.png" alt="" width="100%" height="auto">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h4>Nombre de la escuela</h4>
+                    <div class="row">
+                        <div class="col-12 col-md-4 context-color"><span class="font-weight-bold">Departamento:</span></div>
+                        <div class="col-12 col-md-8"><span class="font-weight-light">Guatemala</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 context-color"><span class="font-weight-bold">Municipio:</span></div>
+                        <div class="col-12 col-md-8"><span class="font-weight-light">Ciudad de Guatemala</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 context-color"><span class="font-weight-bold">Nivel escolar:</span></div>
+                        <div class="col-12 col-md-8"><span class="font-weight-light">Medio</span></div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <button type="button" class="btn btn-lg d-block btn-danger w-100 my-1"><span>Conocer</span></button>
+                    <button type="button" class="btn btn-lg d-block text-white w-100 my-1" style="background-color: #8465e6;"><span>Comparar</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
