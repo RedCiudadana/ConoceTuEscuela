@@ -22,7 +22,7 @@ module.exports = function(deployTarget) {
 
     ENV.git = {
       repo: 'https://github.com/RedCiudadana/ConoceTuEscuela',
-      branch: 'gh-pages',
+      branch: 'gh-pages-skeleton',
       worktreePath: '/tmp/deploy',
       commitMessage: 'Deployed %@'
     }
