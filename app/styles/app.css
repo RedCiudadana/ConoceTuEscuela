@@ -2658,6 +2658,12 @@ img.mfp-img {
 
 
 /* Footer Styles */
+#footer-logo-rc {
+	width: 120px;
+	margin: auto;
+	margin-top: 10px;
+}
+
 .footer-bottom .social-icons {
 	display: inline-block;
 	margin-bottom: 25px;
