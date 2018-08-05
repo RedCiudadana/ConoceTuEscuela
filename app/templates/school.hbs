@@ -1,193 +1,70 @@
-<style>
-    body {
-        background-color: #f2f2f2;
-    }
-</style>
-<div class="container my-5 p-5 bg-white">
-    {{!-- Tabs route --}}
-    <div class="row">
-        {{#bs-nav type="pills" class="nav nav-pills nav-fill" justified=true as |nav|}}
-       {{#nav.item}}
-          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
-                <img height="50px" class="mr-3" src="/img/school.svg">
-                <span class="my-auto">Escuela</span>
-          {{/nav.link-to}}
-       {{/nav.item}}
-       {{#nav.item}}
-          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
-                <img height="50px" class="mr-3" src="/img/pen.svg">
-                <span class="my-auto">Compara</span>
-          {{/nav.link-to}}
-       {{/nav.item}}
-       {{#nav.item}}
-          {{#nav.link-to "index" class="d-flex nav-item bg-primary px-5 rounded m-1 nav-link text-white"}}
-                <img height="50px" class="mr-3" src="/img/report.svg">
-                <span class="my-auto">Reporta</span>
-          {{/nav.link-to}}
-       {{/nav.item}}
-     {{/bs-nav}}
+{{!-- Pills Routes --}}
+<div class="container">
+
+    <div class="four columns">
+        <a href="#" class="button pills">
+            <img src="/img/school.svg" alt="Datos generales">
+            <span>Escuela</span>
+        </a>
     </div>
-    <!-- Form -->
-    <div class="row">
-        <!-- Datos -->
-        <div class="col-12 col-md-8">
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Departamento:</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Municipio:</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Nivel escolar:</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Establecimiento:</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Nivel:</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                    <label class="w-25">Sector</label>
-                </div>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-            <div class="my-4">
-                <div class="d-inline p-2">
-                </div>
-                    <label class="w-25">Area:</label>
-                <div class="d-inline p-2">
-                    <input type="text" class="form-control d-inline" style="width: 60%;">
-                </div>
-            </div>
-        </div>
-        <!-- Mapa -->
-        <div class="col-12 col-md-3 d-block mt-4">
-            {{#leaflet-map lat=14.6131039 lng=-90.5189396 zoom=12}}
-              {{tile-layer url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
-            {{/leaflet-map}}
-            <div class="w-100 border rounded p-4 my-2 bg-secundary">
-                <img src="/img/email.svg" class="tiny" alt=""><span>Dirección</span>
-                <p class="font-weight-light">Ciudad de Guatemala</p>
-                <img src="/img/phone.svg" class="tiny" alt="Teléfono"><span>Teléfono</span>
-                <p class="font-weight-light">(502) 2254-3478</p>
-            </div>
-        </div>
+
+    <div class="four columns">
+        <a href="#" class="button pills">
+            <img src="/img/pen.svg" alt="Datos generales">
+            <span>Compara</span>
+        </a>
     </div>
-    <!-- Datos en fila -->
-    {{#bs-tab customTabs=true as |tab|}}
-        {{#bs-nav type="pills" class="nav nav-pills nav-fill" as |nav|}}
 
-            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
-                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
-                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
-                        <img height="50px" class="mr-3" src="/img/status.svg">
-                        Status
-                    </li>
-                </a> 
-            {{/nav.item}}
-
-            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
-                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
-                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
-                        <img height="50px" class="mr-3" src="/img/modalidad.svg">
-                        Modalidad
-                    </li>
-                </a> 
-            {{/nav.item}}
-
-            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
-                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
-                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
-                        <img height="50px" class="mr-3" src="/img/jornada.svg">
-                        Jornada
-                    </li>
-                </a> 
-            {{/nav.item}}
-
-            {{#nav.item active=(bs-eq tab.activeId "pane1")}}
-                <a href="#pane1" role="tab" {{action tab.select "pane1"}}>
-                    <li class="nav-item bg-primary px-5 rounded m-1 nav-link text-white">
-                        <img height="50px" class="mr-3" src="/img/plan.svg">
-                        Plan
-                    </li>
-                </a> 
-            {{/nav.item}}
-
-        {{/bs-nav}}
-       <div class="tab-content">
-       {{#tab.pane elementId="pane1" title="Tab 1" class="row d-flex p-3"}}
-            <div class="col-12 col-md-5 d-flex border-md-right">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img width="80%" class="m-2" src="/img/perfil-default.svg">
-                    </div>
-                    <div class="col-12 col-md-6 my-auto">
-                        <h6>Director:</h6>
-                        <span class="text-muted font-weight-light">Contacto del Director</span><br>
-                        <span class="text-muted font-weight-light">Contacto del Director</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-5 d-flex border-md-right">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <img width="80%" class="m-2" src="/img/perfil-default.svg">
-                    </div>
-                    <div class="col-12 col-md-6 my-auto">
-                        <h6>Director:</h6>
-                        <span class="text-muted font-weight-light">Contacto del Director</span><br>
-                        <span class="text-muted font-weight-light">Contacto del Director</span>
-                    </div>
-                </div>
-            </div>
-       {{/tab.pane}}
-       {{#tab.pane elementId="pane2" title="Tab 2"}}
-           <p> 2 </p>
-       {{/tab.pane}}
-       </div>
-    {{/bs-tab}}
-    <!-- Desempeño -->
-    <div class="row justify-content-center rounded bg-green">
-        <div class="col-12 py-4 text-center text-md-left">
-            <h4 class="ml-5 text-white">Desempeño Academico</h4>
-        </div>
+    <div class="four columns">
+        <a href="#" class="button pills">
+            <img src="/img/report.svg" alt="Datos generales">
+            <span>Reporta</span>
+        </a>
     </div>
-    {{!-- Materias --}}
-    <div class="row">
-        <div class="col-12 col-md-3 my-2 bg-yellow p-5 text-center">
-            <img src="/img/mathematics.svg" class="subjects-img" alt="Matemáticas">
-            <h6 class="font-weight-bold text-white text-center">Matemáticas</h6>
-        </div>
-        <div class="col-12 col-md-9 my-2">
-            {{chart-line-basic class="my-5"}}
-        </div>
+
+    <div class="four columns text-center">
+        <span>Social Share</span>
     </div>
+
+</div>
+{{!-- Form --}}
+<div class="container">
+
+    <div class="two-thirds column" id="form-school">
+        <form action="">
+            <div>
+                <h6 for="Departamento">Departamento:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="Municipio">Municipio:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="NivelEscolar">Nivel escolar:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="Establecimiento">Establecimiento:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="Nivel">Nivel:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="Sector">Sector:</h6>
+                <input type="text">
+            </div>
+            <div>
+                <h6 for="Area">Área:</h6>
+                <input type="text">
+            </div>
+        </form>
+    </div>
+
+    <div class="one-thirds column">
+        
+    </div>
+
 </div>

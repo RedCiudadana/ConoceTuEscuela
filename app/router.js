@@ -9,7 +9,7 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('buscar');
   this.route('comparar');
-  this.route('school', {path: 'school/:school_id'});
+  this.route('school');
 });
 
 export default Router;

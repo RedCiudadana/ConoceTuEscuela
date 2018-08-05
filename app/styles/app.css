@@ -905,27 +905,74 @@ input.ico-01 { background: #fff; }
 	margin: 20px auto 10px;
 }
 
-.resultado .eight {
-	padding: 20px 0 20px 35px;
-}
-
-.resultado .eight ul li {
-	margin: 30px 0 30px;
+.resultado .datos {
 	font-size: 1rem;
 }
 
-.resultado .tree {
+.resultado .datos ul li, h2 {
+	margin: 10px auto 25px 10px;
+}
+
+.resultado .botones {
 	padding-top: 5rem;
 }
 
 .resultado .button {
-	width: 8rem;
+	width: 80%;
 	text-align: center;
-	margin: auto 0 10px 2rem;
+	margin-left: 5%;
+	max-width: 25rem;
 }
 
 .resultado .ln {
-	margin-right: 5px;
+	margin-right: 4px;
+}
+
+.pills {
+	width: 90%;
+	text-align: center;
+	display: flex !important;
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+.pills img {
+	height: 70px;
+	width: auto;
+}
+
+.pills span {
+	margin: 20px 15px;
+}
+
+#form-school input {
+	height: 10px;
+	margin: auto 10px 10px;
+	background: #f2f2f2;
+}
+
+#form-school form {
+	padding: 2rem;
+}
+
+#form-school form div {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+
+	#form-school form div {
+		display: block;
+	}
+
+	#form-school input {
+		margin: auto;
+	}
+}
+
+#form-school form div h6 {
+	width: 30%;
 }
 
 /* ---------------------------------- */
